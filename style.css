@@ -52,7 +52,7 @@ section h2::after { content: ''; display: block; width: 60px; height: 3px; backg
 .projeto-card:hover { transform: translateY(-5px); }
 
 /* Botão "Ver Projeto" */
-.btn-projeto { display: inline-block; margin-top: 1rem; padding: 0.6rem 1.2rem; background-color: var(--primary); color: #fff; border-radius: 8px; text-decoration: none; font-weight: 600; transition: background-color 0.3s, transform 0.3s; }
+.btn-projeto { display: block; width: 100%; max-width: 220px; margin: 1rem auto 0; padding: 0.6rem 1.2rem; background-color: var(--primary); color: #fff; border-radius: 8px; text-decoration: none; font-weight: 600; text-align: center; transition: background-color 0.3s, transform 0.3s; }
 .btn-projeto:hover { background-color: var(--btn-hover); transform: scale(1.05); }
 
 /* Formulário */
