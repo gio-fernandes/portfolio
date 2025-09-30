@@ -25,7 +25,7 @@ O objetivo é apresentar de forma clara e objetiva minhas **habilidades**, **pro
 - **Seção "Sobre Mim":** descrição com destaque de palavras-chave.  
 - **Seção de Habilidades:** ícones interativos de HTML, CSS, JavaScript, Git e UI/UX.  
 - **Projetos:** cards com título, descrição e botão "Ver Projeto" que redireciona para o GitHub Pages.  
-- **Contato:** formulário funcional via Formspree + links para LinkedIn, GitHub, Instagram e Gmail.  
+- **Contato:** formulário funcional via Formspree + links para LinkedIn, GitHub e Instagram.  
 - **Responsivo:** otimizado para desktops, tablets e smartphones.
 
 ---
