@@ -82,6 +82,20 @@ section h2::after { content: ''; display: block; width: 60px; height: 3px; backg
         width: 100px;
         height: 100px;
     }
+    .btn-projeto {
+        width: auto;          
+        max-width: 220px;     
+        margin: 1rem auto 0;  
+    }
+}
+
+/* Desktop grande (a partir de 1051px) */
+@media screen and (min-width: 1051px) {
+    .btn-projeto {
+        width: auto;
+        max-width: 220px;
+        margin: 1rem auto 0;
+    }
 }
 
 /* Tablets (450px - 799px) */
