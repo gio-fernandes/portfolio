@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Giovanna Fernandes</title>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <img src="/assets/images/foto-perfil.jpeg" alt="Foto Giovanna" class="perfil">
+            <div class="header-text">
+                <h1 class="animate-title">Giovanna Fernandes</h1>
+                <p>Estudante de Sistemas da Informação | Em busca de estágio</p>
+            </div>
+        </div>
+        
+        <!-- Botão tema claro/escuro -->
+        <div class="theme-toggle">
+            <button id="toggle-theme" title="Alternar tema">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Sobre Mim -->
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>
+            Olá! Eu sou <span class="highlight">Giovanna Fernandes</span>, iniciei minha jornada no mundo da tecnologia em 2025 e foquei meus estudos no <span class="highlight">desenvolvimento front-end</span> através do Bootcamp Santander 2025 - Trilha de Front End, uma parceria com a plataforma DIO, e logo me apaixonei por criar interfaces <span class="highlight">limpas</span> e <span class="highlight">funcionais</span>.<br>
+            Estou em busca do meu primeiro <span class="highlight">estágio</span> na área para aplicar meus conhecimentos em 
+            <span class="highlight">HTML</span>, <span class="highlight">CSS</span> e <span class="highlight">JavaScript</span> e continuar <span class="highlight">aprendendo</span> na prática.<br>
+            Adoro <span class="highlight">desafios</span> e busco sempre entregar soluções <span class="highlight">criativas</span> e <span class="highlight">eficientes</span>! ✨
+        </p>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <div class="skills-grid">
+            <div class="skill"><i class="fab fa-html5"></i><span>HTML5</span></div>
+            <div class="skill"><i class="fab fa-css3-alt"></i><span>CSS3</span></div>
+            <div class="skill"><i class="fab fa-js-square"></i><span>JavaScript</span></div>
+            <div class="skill"><i class="fab fa-git-alt"></i><span>Git</span></div>
+            <div class="skill"><i class="fab fa-github"></i><span>GitHub</span></div>
+        </div>
+    </section>
+
+    <!-- Projetos -->
+    <section id="projetos">
+        <h2>Projetos</h2>
+        <div class="projects-grid">
+            <div class="projeto-card">
+                <h3>Classificador de Heróis 🦸‍♂️</h3>
+                <p>Projeto que classifica heróis por nível (XP) usando JavaScript e manipulação do DOM.</p>
+                <a href="https://gio-fernandes.github.io/classificador-nivel-heroi/" target="_blank" class="btn-projeto">Ver Projeto</a>
+            </div>
+            <div class="projeto-card">
+                <h3>To-Do List ✅</h3>
+                <p>Aplicativo de tarefas que adiciona, conclui e remove tarefas usando HTML, CSS e JS.</p>
+                <a href="https://gio-fernandes.github.io/todo-list/" target="_blank" class="btn-projeto">Ver Projeto</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato">
+        <h2>Contato</h2>
+
+        <!-- Formulário Formspree -->
+        <form action="https://formspree.io/f/xgvnkvrj" method="POST" class="form-contato">
+            <input type="text" name="nome" placeholder="Seu nome" required>
+            <input type="email" name="email" placeholder="Seu e-mail" required>
+            <textarea name="mensagem" placeholder="Mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+
+        <p class="form-status">Sua mensagem foi enviada com sucesso!</p>
+
+        <!-- Redes sociais -->
+        <div class="contact-links">
+            <a href="https://www.linkedin.com/in/giovanna-fernandes2" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/gio-fernandes" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/___gio.vanna" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+    </section>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
