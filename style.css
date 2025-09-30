@@ -69,8 +69,8 @@ section h2::after { content: ''; display: block; width: 60px; height: 3px; backg
 
 /* ===== MEDIA QUERIES ===== */
 
-/* Tablets (600px - 900px) */
-@media (max-width: 900px) {
+/* Dekstop (800px - 1050px) */
+@media screen and (min-width:800px) and (max-width: 1050px) {
     header {
         flex-direction: column;
         align-items: center;
@@ -84,8 +84,8 @@ section h2::after { content: ''; display: block; width: 60px; height: 3px; backg
     }
 }
 
-/* Smartphones (até 600px) */
-@media (max-width: 600px) {
+/* Tablets (450px - 799px) */
+@media screen and (min-width:450px) and (max-width: 799px) {
     section {
         padding: 2rem 1rem;
     }
@@ -105,5 +105,25 @@ section h2::after { content: ''; display: block; width: 60px; height: 3px; backg
     .perfil {
         width: 80px;
         height: 80px;
+    }
+}
+
+/* Smartphones (até 480px) */
+@media screen and (max-width: 480px) {
+    section {
+        padding: 1.5rem 1rem;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .btn-projeto {
+        display: block;      
+        width: 100%;          
+        padding: 12px;
+        text-align: center;
+        font-size: 1rem;      
+        margin: 10px auto 0;  
     }
 }
