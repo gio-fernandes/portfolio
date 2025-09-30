@@ -78,7 +78,7 @@ Este portfólio é totalmente responsivo, funcionando bem em:
 
 O projeto está hospedado no GitHub Pages e pode ser acessado neste link:
 
-[Portfólio](link github)
+[Portfólio](https://gio-fernandes.github.io/portfolio/)
 
 ---
 
